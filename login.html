@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+
+<?php 
+     include(config.php)
+     include(verifikasi_login.php) 
+?>
+<body>
+<div class="login">
+    <input type="text" placeholder="username" id="username">  
+  <input type="password" placeholder="password" id="password">  
+  <a href="#" class="forgot">forgot password?</a>
+  <form action="verifikasi_login.php"><input type="submit" value="Sign In">
+
+</div>
+<div class="shadow"></div>
+</body>
+</html>
